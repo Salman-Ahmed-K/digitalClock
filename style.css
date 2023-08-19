@@ -1,0 +1,36 @@
+body{
+background-color: darkslateblue;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Orbitron', sans-serif;
+}
+
+.parent {
+    background-color: #fff;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    background-color:dimgray;
+    height:60px ;
+    width: 240px;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    
+}
+#choto {
+    position: absolute;
+    right: 7px;
+    top: 28px;
+}
